@@ -6,7 +6,7 @@ import { LoginSchema } from './appSchema';
 import { DbconnectionModule } from './dbconnection/dbconnection.module';
 
 @Module({
-  imports: [MongooseModule.forRoot('mongodb+srv://nest:alfaz@123@cluster0.ylkxn.mongodb.net/kalp-api?retryWrites=true&w=majority')
+  imports: [MongooseModule.forRoot('mongodb+srv://nest:qqqq@cluster0.ylkxn.mongodb.net/kalp-api?retryWrites=true&w=majority')
     ,MongooseModule.forFeature([{name:'Login',schema:LoginSchema}]),
     
 
